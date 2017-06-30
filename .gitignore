@@ -1,0 +1,28 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+
+#IntelliJ IDEA
+.idea
+*.iml
+*.ipr
+*.iws
+
+#Gradle
+.gradle
+build
+
+# Android sdk
+.android
+
+#Other
+.DS_Store
+*.swp
+*.tmp
+*.bak
+*.launch

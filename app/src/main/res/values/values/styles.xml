@@ -1,0 +1,64 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.Sample" parent="Base.Theme.Sample"></style>
+
+    <style name="Base.Theme.Sample" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <style name="AppTheme.ActionBar.Transparent" parent="Theme.Sample">
+        <item name="colorPrimary">@android:color/transparent</item>
+    </style>
+
+    <style name="TextAppearance.Row" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="fakeStyle" parent="Theme.Sample">
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+
+    <style name="CustomEditTextStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">@color/black_15</item>
+        <item name="colorControlActivated">@color/black_15</item>
+        <item name="colorControlHighlight">@color/black_15</item>
+    </style>
+
+    <style name="ActivityDialogStyle">
+        <item name="android:fullDark">@android:color/transparent</item>
+        <item name="android:topDark">@android:color/transparent</item>
+        <item name="android:centerDark">@android:color/transparent</item>
+        <item name="android:bottomDark">@android:color/transparent</item>
+        <item name="android:fullBright">@android:color/transparent</item>
+        <item name="android:topBright">@android:color/transparent</item>
+        <item name="android:centerBright">@android:color/transparent</item>
+        <item name="android:bottomBright">@android:color/transparent</item>
+        <item name="android:bottomMedium">@android:color/transparent</item>
+        <item name="android:centerMedium">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.Sample.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="Theme.Sample.Dialog.Custom">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:alertDialogStyle">@style/ActivityDialogStyle</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <color name="black_15">#888888</color>
+</resources>
